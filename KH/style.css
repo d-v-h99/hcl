@@ -95,3 +95,44 @@ main .main-content button {
   margin-top: 10px;
   cursor: pointer;
 }
+
+#popup {
+  width: 100vw;
+  height: 100vh;
+  background-color: #3b3a3a2e;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#popup .popup-container {
+  width: 70%;
+  height: 80%;
+  background-color: #000;
+}
+
+#popup .popup-container .popup-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+}
+
+#form-confirm {
+  height: calc(100vh - 126px);
+  width: 100%;
+  background-color: #D9D9D9;
+  display: none;
+}
+
+#form-1,
+#form-2 {
+  margin: auto;
+  height: 60vh;
+  width: 50vw;
+  background-color: #FFFFFF;
+  display: none;
+}
