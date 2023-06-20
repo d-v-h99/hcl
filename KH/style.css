@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  color: black;
+}
+
+
 img {
   display: block;
   max-width: 100%;
