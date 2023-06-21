@@ -11212,3 +11212,6 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%
 }
+#icon1 {
+  font-size: 30px;
+}
